@@ -1,20 +1,20 @@
 # netlify redirects https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file
 
 # Plausible Analytics https://plausible.io/docs/proxy/guides/netlify with https://plausible.io/docs/script-extensions
-/pio/js/script.js https://plausible.io/js/script.outbound-links.file-downloads.js 200
+/pio/js/pa-s49MQh6vkUW1n3PK9sukW.js https://plausible.io/js/pa-s49MQh6vkUW1n3PK9sukW.js 200
 /pio/api/event https://plausible.io/api/event 200
 
 # Redirects from changing page URLs
-/mentor-profiles	/mentors
-/student-profiles	/students
+/mentor-profiles /mentors
+/student-profiles /students
 
 # Redirects from changing asset URLs
-/tutorials/*	/assets/tutorials/:splat
-/lectures-pdf/C4C-introduction.pdf	/assets/lectures/C4C-introduction.pdf
-/lectures-ppt/C4C-introduction.ppt	/assets/lectures/C4C-introduction.ppt
-/lectures-pdf/Data-and-Models.pdf	/assets/lectures/Data-and-Models.pdf
-/lectures-ppt/Data-and-Models.ppt	/assets/lectures/Data-and-Models.ppt
+/tutorials/* /assets/tutorials/:splat
+/lectures-pdf/C4C-introduction.pdf /assets/lectures/C4C-introduction.pdf
+/lectures-ppt/C4C-introduction.ppt /assets/lectures/C4C-introduction.ppt
+/lectures-pdf/Data-and-Models.pdf /assets/lectures/Data-and-Models.pdf
+/lectures-ppt/Data-and-Models.ppt /assets/lectures/Data-and-Models.ppt
 
 # Redirects from 404s
-/assets  /
-/assets/tutorials  /
+/assets /
+/assets/tutorials /
