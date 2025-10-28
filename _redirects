@@ -1,6 +1,6 @@
 # netlify redirects https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file
 
-# Plausible Analytics https://plausible.io/docs/proxy/guides/netlify with https://plausible.io/docs/script-extensions
+# Plausible Analytics based on https://plausible.io/docs/proxy/guides/vercel
 /pio/js/pa-s49MQh6vkUW1n3PK9sukW.js https://plausible.io/js/pa-s49MQh6vkUW1n3PK9sukW.js 200
 /pio/api/event https://plausible.io/api/event 200
 
