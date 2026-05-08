@@ -9,6 +9,12 @@
 /lectures-pdf/Data-and-Models.pdf /assets/lectures/Data-and-Models.pdf
 /lectures-ppt/Data-and-Models.ppt /assets/lectures/Data-and-Models.ppt
 
+# Redirects from simple_statistics rename (typo fix + lowercase)
+/assets/tutorials/simple_statistics/simple_statisitics_tutorial /assets/tutorials/simple_statistics/simple_statistics_tutorial.html 301
+/assets/tutorials/simple_statistics/simple_statisitics_tutorial.html /assets/tutorials/simple_statistics/simple_statistics_tutorial.html 301
+/assets/tutorials/Simple_statistics/Simple_statisitics_tutorial.html /assets/tutorials/simple_statistics/simple_statistics_tutorial.html 301
+/assets/tutorials/Simple_statistics/Simple_statisitics_tutorial.Rmd /assets/tutorials/simple_statistics/simple_statistics_tutorial.Rmd 301
+
 # Redirects from 404s
 /assets /
 /assets/tutorials /
