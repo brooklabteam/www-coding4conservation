@@ -18,8 +18,8 @@ We are currently developing the 2024 syllabus. In the meantime, check out the 20
 
 **Week 2: Intro to simple statistics**
 * [Monday, June 27](https://uchicago.zoom.us/j/91835847493?pwd=UzFMSzZrN0UvdkVxWjlSZlRyeXA3QT09): Introduction to simple statistics  (**Kacie Ring**)
-  * [Simple statistics tutorial](assets/tutorials/Simple_statistics/Simple_statisitics_tutorial.html)
-  * [Simple statistics Rmarkdown download](assets/tutorials/Simple_statistics/Simple_statisitics_tutorial.Rmd)
+  * [Simple statistics tutorial](assets/tutorials/simple_statistics/simple_statistics_tutorial.html)
+  * [Simple statistics Rmarkdown download](assets/tutorials/simple_statistics/simple_statistics_tutorial.Rmd)
 * [Wednesday, June 29](https://uchicago.zoom.us/j/99685259951?pwd=emFjMTlIL2c3MW5DNlFsMkoyVE1kUT09): Introduction to linear regression  (**Sophia Horigan**)
    * [Linear regression lecture](/assets/lectures/C4C_LinearRegression_2022.pdf)
    * [Linear regression tutorial](/assets/tutorials/C4C-LinearRegression.zip)
