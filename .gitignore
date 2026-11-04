@@ -3,3 +3,7 @@
 .Rproj
 coding4conservation.Rproj
 .Rhistory
+
+# Jekyll build output
+_site/
+.jekyll-cache/
