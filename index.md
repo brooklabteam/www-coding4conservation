@@ -10,9 +10,9 @@ title: "Coding 4 Conservation"
 Please stay tuned for our replies!</center></p>
 </div>
 
-<img src="assets/img/C4C12.png" style="float: left; max-width: 15em; margin: 1em 1em 1em 0;" />
+<img src="assets/img/C4C12.png" alt="Coding for Conservation Madagascar logo" style="float: left; max-width: 15em; margin: 1em 1em 1em 0;" />
 
-<img src="assets/img/IMGP0119.JPG" style="float: right; max-width: 12em; margin: 1em 0 1em 1em;" />
+<img src="assets/img/IMGP0119.JPG" alt="A black-and-white ruffed lemur sitting on a tree branch" style="float: right; max-width: 12em; margin: 1em 0 1em 1em;" />
 
 <p>We are pleased to announce our year-long mentorship program <em>Coding for Conservation</em>. This program is targeted towards Malagasy students in their third cycle or higher in conservation biology, zoology, animal biodiversity, entomology, botany, and related fields, though all are welcome to apply. In part with this program, Malagasy students will attend a <strong>week-long computational workshop</strong>, <a href="https://e2m2.org/">Ecological and Epidemiological Modeling in Madagascar</a>, while also receiving <strong>one-on-one instruction</strong> in data analysis and scientific writing oriented towards the publication of their personal research projects.</p>
 
@@ -24,7 +24,7 @@ Please stay tuned for our replies!</center></p>
 
 <p>Additionally, students will be assigned a one-on-one instructor mentor to guide them personally in analysis and write-up of their own data over the course of the year, with the goal of submitting the work for eventual publication. We are specifically interested in selecting students with ongoing research projects and existing datasets who seek additional support in data analysis and writing a manuscript for publication. </p>
 
-<img src="assets/img/IMG_1317.JPG" style="float: right; width: 60%; max-width: 10em; margin: 1em 0 1em 1em;" />
+<img src="assets/img/IMG_1317.JPG" alt="A yellow-green chameleon on a branch" style="float: right; width: 60%; max-width: 10em; margin: 1em 0 1em 1em;" />
 
 <p>The course will be taught primarily in English, though a subset of the faculty will be available to offer some translation into French and/or Malagasy. A working knowledge of the English language is required for admission; however, we will do our best to make the material accessible to students who find English challenging. If you have any questions about the appropriateness of your background or training for our course, either in language or in science, please do not hesitate to contact us straight away (email below).</p>
 
@@ -56,7 +56,7 @@ Please stay tuned for our replies!</center></p>
 <em>Cara Brook, Sophia Horigan, Emily Ruhs,  Angelo Andrianiaina, Santino Andry, Benjamin Chait, Hafaliana Christian Ranaivoson</em></p>
 
 <div style="vertical-align: middle; text-align: center;">
-	<img src="assets/img/partners/UCCGH.jpg" style="width: 10em; max-width: 30%; vertical-align: middle;" />
+	<img src="assets/img/partners/UCCGH.jpg" alt="University of Chicago Center for Global Health" style="width: 10em; max-width: 30%; vertical-align: middle;" />
 	
 	<div style="clear: both;">&nbsp;</div>
 </div>
