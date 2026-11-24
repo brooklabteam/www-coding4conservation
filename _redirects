@@ -1,13 +1,16 @@
+# Cloudflare Pages _redirects: https://developers.cloudflare.com/pages/configuration/redirects/
+# Format: <from> <to> <status>. ALWAYS write the status code. Cloudflare Pages defaults to 302
+# (temporary), unlike Netlify, which defaults to 301. CI fails on a rule without a status code.
 # Redirects from changing page URLs
-/mentor-profiles /mentors
-/student-profiles /students
+/mentor-profiles /mentors 301
+/student-profiles /students 301
 
 # Redirects from changing asset URLs
-/tutorials/* /assets/tutorials/:splat
-/lectures-pdf/C4C-introduction.pdf /assets/lectures/C4C-introduction.pdf
-/lectures-ppt/C4C-introduction.ppt /assets/lectures/C4C-introduction.ppt
-/lectures-pdf/Data-and-Models.pdf /assets/lectures/Data-and-Models.pdf
-/lectures-ppt/Data-and-Models.ppt /assets/lectures/Data-and-Models.ppt
+/tutorials/* /assets/tutorials/:splat 301
+/lectures-pdf/C4C-introduction.pdf /assets/lectures/C4C-introduction.pdf 301
+/lectures-ppt/C4C-introduction.ppt /assets/lectures/C4C-introduction.ppt 301
+/lectures-pdf/Data-and-Models.pdf /assets/lectures/Data-and-Models.pdf 301
+/lectures-ppt/Data-and-Models.ppt /assets/lectures/Data-and-Models.ppt 301
 
 # Redirects from simple_statistics rename (typo fix + lowercase)
 /assets/tutorials/simple_statistics/simple_statisitics_tutorial /assets/tutorials/simple_statistics/simple_statistics_tutorial.html 301
@@ -16,5 +19,5 @@
 /assets/tutorials/Simple_statistics/Simple_statisitics_tutorial.Rmd /assets/tutorials/simple_statistics/simple_statistics_tutorial.Rmd 301
 
 # Redirects from 404s
-/assets /
-/assets/tutorials /
+/assets / 301
+/assets/tutorials / 301
