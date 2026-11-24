@@ -24,6 +24,16 @@ jobs:
         run: |
           bundle config set --local without ''
           bundle install
+      - name: Check every _redirects rule has a status code
+        # Cloudflare Pages defaults to 302 (temporary) when none is written; Netlify defaulted to 301.
+        run: |
+          bad=$(tr -d '\r' < _redirects | awk 'NF>0 && $1 !~ /^#/ && NF==2 {print "  line " NR ": " $0}')
+          if [ -n "$bad" ]; then
+            echo "ERROR: every _redirects rule needs a status code (e.g. 301). Cloudflare Pages defaults to 302, not Netlify's 301:"
+            echo "$bad"
+            exit 1
+          fi
+          echo "OK: every _redirects rule has a status code"
       - name: Build site
         run: bundle exec jekyll build
       - name: HTMLProofer
